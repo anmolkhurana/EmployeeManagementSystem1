@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+body
+{
+  background-image: url("Zensar-Tech-Logo-min.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1
+{
+  text-align: center;
+  border: 3px solid green;
+}
+
+a
+{
+      color: black;
+      border: 2px solid blue;
+      border-radius: 25px;
+      padding: 20px 20px 20px 20px;
+}

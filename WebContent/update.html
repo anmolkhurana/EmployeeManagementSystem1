@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Update_page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="Style1.css">
+</head>
+<body>
+<h1>Employee Payroll System</h1><br><br><br>
+    <h2>Update Record</h2>
+    <form  action="update_process.jsp" method="post">
+      <h3>Employee ID</h3>
+      <input type="text" name="empid" value="">
+      <h3>Select Field for updation</h3>
+      <select name="field">
+        <option value="empname">Employee Name</option>
+        <option value="empcity">Employee City</option>
+      </select>
+      <h3>Enter Update Value</h3>
+      <input type="text" name="upd" value=""><br><br>
+      <input id="b2" type="submit" name="submit" value="Submit"></input><br><br><br><br>
+      <a href="index.html">Home Page</a>
+    </form>
+</body>
+</html>

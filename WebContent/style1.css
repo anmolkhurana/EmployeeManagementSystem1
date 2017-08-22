@@ -1,0 +1,24 @@
+@charset "ISO-8859-1";
+h2
+{
+  text-align: center;
+  font-size: 60 px;
+}
+
+h3, form
+{
+
+  text-align: center;
+
+}
+
+#b1
+{
+  font-size: 20px;
+}
+
+
+#b2
+{
+  font-size: 20px;
+}
